@@ -1,12 +1,13 @@
 {
-    "name": "blade-organization/blade-heroicons",
+    "name": "itliusha/blade-quicksand",
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "keywords": ["Blade", "quicksand", "Laravel"],
+    "homepage": "https://github.com/itliusha/blade-quicksand",
     "license": "MIT",
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "itliusha",
+            "email": "itliusha@qq.com"
         }
     ],
     "require": {
@@ -20,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "BladeUI\\Quicksand\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "BladeUI\\Quicksand\\BladeQuicksandServiceProvider"
             ]
         }
     },

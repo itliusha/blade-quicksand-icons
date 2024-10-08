@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
+use BladeUI\Quicksand\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
