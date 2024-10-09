@@ -3,7 +3,6 @@
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
     "keywords": ["Blade", "quicksand", "Laravel"],
     "homepage": "https://github.com/itliusha/blade-quicksand-icons",
-    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
