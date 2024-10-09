@@ -66,13 +66,13 @@ php artisan vendor:publish --tag=blade-quicksand-config
 如果您想使用原始 SVG 图标作为资产，你需要先使用以下方式发布它们：
 
 ```bash
-php artisan vendor:publish --tag=blade-quicksand --force
+php artisan vendor:publish --tag=blade-quicksand-icons --force
 ```
 
 然后在你的视图中使用它们，如下:
 
 ```blade
-<img src="{{ asset('vendor/blade-quicksand/quicksand-logo.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-quicksand-icons/quicksand-logo.svg') }}" width="10" height="10"/>
 ```
 
 ## 变更日志
