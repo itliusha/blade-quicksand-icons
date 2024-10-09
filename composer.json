@@ -1,6 +1,6 @@
 {
     "name": "itliusha/blade-quicksand-icons",
-    "description": "A package to easily make use of quicksand icons in your Laravel Blade views.",
+    "description": "这是一个可以轻松在 Laravel blade 里轻松使用  quicksand-icons 图标库的 Laravel 包",
     "keywords": ["Blade", "quicksand", "Laravel"],
     "homepage": "https://github.com/itliusha/blade-quicksand-icons",
     "license": "MIT",
