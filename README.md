@@ -1,4 +1,4 @@
-# Blade Icons Template
+# Blade Quicksand Icons
 
 <a href="https://github.com/itliusha/blade-quicksand-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/blade-ui-kit/blade-quicksand-icons/workflows/Tests/badge.svg" alt="Tests">
@@ -10,81 +10,80 @@
     <img src="https://img.shields.io/packagist/dt/itliusha/blade-quicksand-icons" alt="Total Downloads">
 </a>
 
-## Requirements
+让你可以在 Laravel blade 中轻松使用图标的扩展包 `Blade Quicksand Icons`。
 
-- PHP 8.2 or higher
-- Laravel 10.0 or higher
+阅读下文，以了解如何使用。
+## 版本要求
 
-## Installation
+- PHP 8.2 或更高版本
+- Laravel 10.0 或更高版本
+
+## 安装到 你的 Laravel 项目
 
 ```bash
 composer require itliusha/blade-quicksand-icons
 ```
 
-## Updating
+## 更新
 
-Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
+更新时请参考 [`更新指南`](CHANGELOG.md) 进行更新。
 
 ## Blade Icons
 
-Blade quicksand uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+Blade Quicksand Icons 背后使用了 Blade Icons. 参阅 [Blade Icons 自述文件](https://github.com/blade-ui-kit/blade-icons) 了解更多功能。 建议使用时 [开启图标缓存](https://github.com/blade-ui-kit/blade-icons#caching) ，以提升性能。
 
-## Configuration
+## 配置文件
 
-Blade quicksand also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-quicksand.php` config file:
+`Blade Quicksand Icons` 还提供了使用 `Blade Icons` 的功能，比如：默认类、默认属性等。如果你想配置这些功能，需先发布 `blade-quicksand.php` 配置文件:
 
 ```bash
 php artisan vendor:publish --tag=blade-quicksand-config
 ```
 
-## Usage
+## 用法
 
-Icons can be used as self-closing Blade components which will be compiled to SVG icons:
+可以使用自闭合的 blade 组件来引用图标, 它将会被转化成 SVG 类型的图标。
 
 ```blade
 <x-quicksand-o-adjustments/>
 ```
 
-You can also pass classes to your icon components:
+当然，你还可以将类名传递给组件:
 
 ```blade
-<x-quicksand-o-adjustments class="w-6 h-6 text-gray-500"/>
+<x-quicksand-quicksand-logo class="w-6 h-6 text-gray-500"/>
 ```
 
-And even use inline styles:
+另外，你还可以使用内联样式来设置图标:
 
 ```blade
-<x-quicksand-o-adjustments style="color: #555"/>
+<x-quicksand-quicksand-logo style="color: #555"/>
 ```
 
-The solid icons can be referenced like this:
 
-```blade
-<x-quicksand-s-adjustments/>
-```
+### 使用原始 SVG 图标
 
-### Raw SVG Icons
-
-If you want to use the raw SVG icons as assets, you can publish them using:
+如果您想使用原始 SVG 图标作为资产，你需要先使用以下方式发布它们：
 
 ```bash
 php artisan vendor:publish --tag=blade-quicksand --force
 ```
 
-Then use them in your views like:
+然后在你的视图中使用它们，如下:
 
 ```blade
-<img src="{{ asset('vendor/blade-quicksand/o-adjustments.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-quicksand/quicksand-logo.svg') }}" width="10" height="10"/>
 ```
 
-## Changelog
+## 变更日志
 
 Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent changes.
 
 ## Maintainers
 
-Blade quicksand is developed and maintained by Blade Developer.
+Blade Quicksand Icons 由 [Itliusha](https://github.com/itliusha) 开发和维护。
+
 
 ## License
 
-Blade quicksand is open-sourced software licensed under [the MIT license](LICENSE.md).
+Blade Quicksand Icons 是根据 [MIT 许可证](LICENSE.md) 授权的开源软件。
