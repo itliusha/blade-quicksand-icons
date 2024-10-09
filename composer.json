@@ -1,6 +1,6 @@
 {
     "name": "itliusha/blade-quicksand-icons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
+    "description": "A package to easily make use of quicksand icons in your Laravel Blade views.",
     "keywords": ["Blade", "quicksand", "Laravel"],
     "homepage": "https://github.com/itliusha/blade-quicksand-icons",
     "license": "MIT",
