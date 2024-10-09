@@ -45,19 +45,19 @@ php artisan vendor:publish --tag=blade-quicksand-config
 可以使用自闭合的 blade 组件来引用图标, 它将会被转化成 SVG 类型的图标。
 
 ```blade
-<x-quicksand-o-adjustments/>
+<x-quicksand-quicksand-logo />
 ```
 
 当然，你还可以将类名传递给组件:
 
 ```blade
-<x-quicksand-quicksand-logo class="w-6 h-6 text-gray-500"/>
+<x-quicksand-quicksand-logo class="w-6 h-6 text-gray-500" />
 ```
 
 另外，你还可以使用内联样式来设置图标:
 
 ```blade
-<x-quicksand-quicksand-logo style="color: #555"/>
+<x-quicksand-quicksand-logo style="color: #555" />
 ```
 
 
@@ -77,7 +77,7 @@ php artisan vendor:publish --tag=blade-quicksand --force
 
 ## 变更日志
 
-Check out the [CHANGELOG](CHANGELOG.md) in this repository for all the recent changes.
+查看此存储库中的 [CHANGELOG](CHANGELOG.md) 以了解所有最新更改。
 
 ## Maintainers
 

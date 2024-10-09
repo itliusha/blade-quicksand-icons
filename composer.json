@@ -2,7 +2,8 @@
     "name": "itliusha/blade-quicksand",
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
     "keywords": ["Blade", "quicksand", "Laravel"],
-    "homepage": "https://github.com/itliusha/blade-quicksand",
+    "homepage": "https://github.com/itliusha/blade-quicksand-icons",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -11,13 +12,13 @@
         }
     ],
     "require": {
-        "php": "~8.2.0|~8.3.0",
-        "blade-ui-kit/blade-icons": "^1.6",
-        "illuminate/support": "^11.0"
+        "php": "^7.4|^8.0|~8.2.0|~8.3.0",
+        "blade-ui-kit/blade-icons": "^1.1",
+        "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^9.0",
-        "phpunit/phpunit": "^10.0"
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
