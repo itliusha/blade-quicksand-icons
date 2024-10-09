@@ -79,11 +79,11 @@ php artisan vendor:publish --tag=blade-quicksand --force
 
 查看此存储库中的 [CHANGELOG](CHANGELOG.md) 以了解所有最新更改。
 
-## Maintainers
+## 维护者
 
 Blade Quicksand Icons 由 [Itliusha](https://github.com/itliusha) 开发和维护。
 
 
-## License
+## 许可证
 
 Blade Quicksand Icons 是根据 [MIT 许可证](LICENSE.md) 授权的开源软件。
