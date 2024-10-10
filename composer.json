@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\QuicksandIcons\\": "src"
+            "Quicksand\\Icons\\": "src"
         }
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\QuicksandIcons\\BladeQuicksandIconsServiceProvider"
+                "Quicksand\\Icons\\BladeQuicksandIconsServiceProvider"
             ]
         }
     },

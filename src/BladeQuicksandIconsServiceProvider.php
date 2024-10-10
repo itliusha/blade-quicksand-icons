@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BladeUI\QuicksandIcons;
+namespace Quicksand\Icons;
 
 use BladeUI\Icons\Factory;
 use Illuminate\Contracts\Container\Container;
