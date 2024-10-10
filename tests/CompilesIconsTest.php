@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BladeUI\Quicksand\BladeHeroiconsServiceProvider;
+use Quicksand\Icons\BladeQuicksandIconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
@@ -60,7 +60,7 @@ class CompilesIconsTest extends TestCase
     {
         return [
             BladeIconsServiceProvider::class,
-            BladeQuicksandServiceProvider::class,
+            BladeQuicksandIconsServiceProvider::class,
         ];
     }
 }
