@@ -1,8 +1,5 @@
 # Blade Quicksand Icons
 
-<a href="https://github.com/itliusha/blade-quicksand-icons/actions?query=workflow%3ATests">
-    <img src="https://github.com/blade-ui-kit/blade-quicksand-icons/workflows/Tests/badge.svg" alt="Tests">
-</a>
 <a href="https://packagist.org/packages/itliusha/blade-quicksand-icons">
     <img src="https://img.shields.io/packagist/v/itliusha/blade-quicksand-icons" alt="Latest Stable Version">
 </a>
