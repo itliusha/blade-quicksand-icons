@@ -29,6 +29,8 @@ composer require itliusha/blade-quicksand-icons
 
 Blade Quicksand Icons 背后使用了 Blade Icons. 参阅 [Blade Icons 自述文件](https://github.com/blade-ui-kit/blade-icons) 了解更多功能。 建议使用时 [开启图标缓存](https://github.com/blade-ui-kit/blade-icons#caching) ，以提升性能。
 
+Blade Quicksand Icons 每个图标有三种类型，即：`duotone`  `outline`  `solid` , 超过 1500+ 精美图标供您使用。
+
 ## 配置文件
 
 `Blade Quicksand Icons` 还提供了使用 `Blade Icons` 的功能，比如：默认类、默认属性等。如果你想配置这些功能，需先发布 `blade-quicksand.php` 配置文件:
@@ -39,22 +41,22 @@ php artisan vendor:publish --tag=blade-quicksand-config
 
 ## 用法
 
-可以使用自闭合的 blade 组件来引用图标, 它将会被转化成 SVG 类型的图标。
+可以使用自闭合的 blade 组件来引用图标, 它将会被转化成 SVG 类型的图标。需要注意的是使用具体类型的图标需加上对应的文件名。比如：`<x-quicksand-{$dirName}.{$iconName} />`
 
 ```blade
-<x-quicksand-quicksand-logo />
+<x-quicksand-solid.quicksand-logo />
 ```
 
 当然，你还可以将类名传递给组件:
 
 ```blade
-<x-quicksand-quicksand-logo class="w-6 h-6 text-gray-500" />
+<x-quicksand-solid.quicksand-logo class="w-6 h-6 text-gray-500" />
 ```
 
 另外，你还可以使用内联样式来设置图标:
 
 ```blade
-<x-quicksand-quicksand-logo style="color: #555" />
+<x-quicksand-solid.quicksand-logo style="color: #555" />
 ```
 
 
@@ -69,7 +71,7 @@ php artisan vendor:publish --tag=blade-quicksand-icons --force
 然后在你的视图中使用它们，如下:
 
 ```blade
-<img src="{{ asset('vendor/blade-quicksand-icons/quicksand-logo.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-quicksand-icons/solid/quicksand-logo.svg') }}" width="10" height="10"/>
 ```
 
 ## 变更日志
